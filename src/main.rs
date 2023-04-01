@@ -12,7 +12,7 @@ async fn main() -> Result<(), Box<dyn Error>> {
     // Parse command line arguments
     let args: Vec<String> = env::args().collect();
     if args.len() < 4 {
-        println!("Usage: upload_to_s3 <filename> <bucket_name> <metadata> [key]");
+        println!("Usage: s3c <filename> <bucket_name> <metadata> [key]");
         return Ok(());
     }
     let filename = &args[1];

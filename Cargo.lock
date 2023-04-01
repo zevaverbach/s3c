@@ -926,15 +926,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "rust_s3"
-version = "0.1.0"
-dependencies = [
- "rusoto_core",
- "rusoto_s3",
- "tokio",
-]
-
-[[package]]
 name = "rustc_version"
 version = "0.4.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -962,6 +953,15 @@ name = "ryu"
 version = "1.0.13"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "f91339c0467de62360649f8d3e185ca8de4224ff281f66000de5eb2a77a79041"
+
+[[package]]
+name = "s3c"
+version = "0.1.0"
+dependencies = [
+ "rusoto_core",
+ "rusoto_s3",
+ "tokio",
+]
 
 [[package]]
 name = "schannel"
